@@ -1,0 +1,296 @@
+/* Ceci concerne l'entete la partie dees contacte */
+.entete{
+  display: inline-flex;
+  background-color: #F53C13 ;
+  width: 100%;
+  height: 50%;
+}
+/* Ceci concerne l'incone telephone et le numero*/
+.telephone{
+    position: relative;
+    left: 50px;
+    display: inline-flex;
+}
+
+.icone_telephone{
+width: 50px;
+height: 50px;
+}
+.numero{
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+/*  Ceci concerne l'incone d'ouverture et le message d'ouverture */
+.ouverture{
+  position: absolute;
+  left: 350px;
+  display: inline-flex;
+}
+
+.icone_ouvert{
+width: 50px;
+height: 50px;
+}
+
+.horraire_ouverture{
+  position: relative;
+  left: 5px;
+ top: 5px;
+}
+/*  Ceci concerne l'incone de l'enveloppe et le mail */
+.mail{
+  position: absolute;
+  left: 980px;
+  display: inline-flex;
+}
+
+.icone_mail{
+width: 50px;
+height: 50px;
+}
+
+.adresse_mail{
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+/*  Ceci concerne le logo et les icones des reseaux sociaux */
+
+.logo_icones{
+display: inline-flex;
+}
+/*  Ceci concerne la div youtube et l'icone youtube */
+
+.div_youtube{
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+.icone_youtube{
+  width: 50px;
+  height: 50px;
+}
+/*  Ceci concerne la div instagram et l'icone instagram */
+
+.div_instagram{
+  position: relative;
+  left: 300px;
+  top: 40px;
+}
+.icone_instagram{
+  width: 55px;
+  height: 55px;
+}
+/*  Ceci concerne la div du logo et le logo*/
+
+.div_logo{
+  position: relative;
+  left: 500px;
+  top: 10px;
+}
+.logo{
+  width: 150px;
+  height: 150px;
+}
+/*  Ceci concerne la div facebook et l'icone facebook */
+
+.div_facebook{
+  position: relative;
+  left: 650px;
+  top: 40px; 
+}
+.icone_facebook{
+  width: 50px;
+  height: 50px;
+}
+/*  Ceci concerne la div whatsapp et l'icone whatsapp */
+
+.div_whatsapp{
+  position: relative;
+  left: 900px;
+  top: 50px;
+}
+.icone_whatsapp{
+  width: 50px;
+  height: 50px;
+}
+/*  Ceci concerne le menu */
+
+.menu{
+  position:absolute;
+  left: 60px;
+  bottom: 20em;
+  width: 90%;
+}
+/*  Ceci concerne le message de bienvenue defilant */
+
+.marquee {
+  position: absolute;
+  bottom: 250px;
+  background-color: #F53C13;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.bienvenue{
+ font-size: xx-large;
+ word-spacing: 2rem;
+}
+/* Ceci concerne le carousel */
+
+.carousel{
+  position: relative;
+  top: 200px;
+}
+
+.div_orange{
+  position: relative;
+}
+
+/* Ceci concerne le decort des trois divs separant les sections */
+.position-relative{
+  height: 20px;
+}
+
+.div_2{
+  text-align: center;
+  height: 50px;
+}
+/* Ceci concerne la section formation */
+
+.formations{
+  position: relative;
+}
+/* Ceci concerne  la div soudure et electricite */
+.soudure_electricite{
+  position: relative;
+  top: 15rem;
+  display: inline-flex;
+}
+
+.image_soudeur{
+  width: 60%;
+  height: 50%;
+}
+
+.formez_vous_1{
+  text-align: center;
+  background-color: #F53C13;
+  width: 60%;
+}
+
+.infomation{
+  text-align: center ;
+  width: 65%;
+}
+.prix_date_horaire{
+  display: flex;
+}
+
+.prix{
+  position: relative;
+}
+
+.date{
+  position: relative;
+  left: 50px;
+}
+
+.horaire{
+  position: relative;
+  left: 100px;
+}
+
+.image_electricien{
+  width: 100%;
+  height: 50%;
+}
+
+.formez_vous_2{
+  text-align: center;
+  background-color: #F53C13;
+  width: 100%;
+}
+
+.infomation_2{
+  position: relative;
+  right: 50px;
+  text-align: center ;
+  width: 110%;
+
+.prix_date_horaire_2{
+  display: flex;
+}
+
+.date_2{
+  position: relative;
+  left: 70px;
+}
+
+  .horaire_2{
+    position: relative;
+    left: 120px
+  }
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=Envoyer] {
+  background-color:rgb(22, 22, 71);
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=subimmit]:hover {
+  background-color: blue;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: rgb(3, 3, 12);
+  padding: 20px;
+  display: flex;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=Envoyer] {
+  background-color: orangered;
+  color:white;
+  padding: 12px 8px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=subimmit]:hover {
+  background-color:orangered;
+}
